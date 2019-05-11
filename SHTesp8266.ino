@@ -7,8 +7,8 @@
 ****************************************/
 #define Addr 0x44
 #define TOKEN "BBFF-fEk7qnwFMJ4Dg1xDUiBj1peaGDqz5T" // Your Ubidots TOKEN
-#define WIFINAME "abhishek" // Your SSID
-#define WIFIPASS "abhishek" // Your Wifi Pass
+#define WIFINAME "xyz" // Your SSID
+#define WIFIPASS "xyz" // Your Wifi Pass
 #define MQTTCLIENTNAME "9cfg3f86" // Your MQTT Client Name, it must be unique so we recommend to choose a random ASCCI name
 
 Ubidots client(TOKEN, MQTTCLIENTNAME);
