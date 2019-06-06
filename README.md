@@ -1,12 +1,7 @@
 # Interfacing  esp32 and NCD wireless vibration and temperature sensor
 Displaying Temperature Data on Ubidots  using esp8266 and NCD wireless vibration and temperature sensor.
-![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/SHT30_I2CS_A_1_c02a9c53-2431-4fb7-b568-b403fcd5f63f_480x480.png)
-# SHT30
-SHT30 is the next generation of Sensirion’s temperature and humidity sensors.
-
-The SHT30 has increased intelligence, reliability and improved accuracy specifications compared to its predecessor. Its functionality includes enhanced signal processing,  so that temperature and humidity can be read out using I2C communications.
-
-This I2C Mini Module makes it easy to read termperature and humidity using our standardized sensor footprint. Plug into a Particle interface module for cloud access from anywhere in the world.
+![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Vibration-Temp-NO-Zigmo-600x400.png)
+# IoT Wireless Vibration Sensor 
 
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/ESP32_1.png)
 # ESP-32
