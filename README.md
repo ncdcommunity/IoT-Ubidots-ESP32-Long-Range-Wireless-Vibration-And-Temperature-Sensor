@@ -1,2 +1,2 @@
-# Interfacing-SHT30-with-esp8266-
-Displaying Temperature Data on Ubidots  using esp8266 and SHT30.
+# Interfacing  esp32 and NCD wireless vibration and temperature sensor
+Displaying Temperature Data on Ubidots  using esp8266 and NCD wireless vibration and temperature sensor.
