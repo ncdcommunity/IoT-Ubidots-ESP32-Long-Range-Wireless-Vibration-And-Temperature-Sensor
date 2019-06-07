@@ -93,11 +93,11 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 
 # Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface-
 
-- Industrial Wireless Vibration temperature Sensor With 2 Mile Range Long range wireless IoT Vibration Temperature sensor can be found over here [Industrial Wireless Vibration temperature Sensor]https://store.ncd.io/iot-long-range-wireless-vibration-and-temperature-sensor/
+- Industrial Wireless Vibration temperature Sensor With 2 Mile Range Long range wireless IoT Vibration Temperature sensor can be found over here https://store.ncd.io/iot-long-range-wireless-vibration-and-temperature-sensor/
 
 - This Labview software will work with ncd.io wireless Vibration Temperature sesnor only
 
-- To use this Labview Utility You will need a Wireless to USB router, whihc can be found over here [Wireless to USB router]https://store.ncd.io/product/900hp-   s3b-long-range-wireless-mesh-modem-with-usb-interface/
+- To use this Labview Utility You will need a Wireless to USB router, whihc can be found over here https://store.ncd.io/product/900hp-   s3b-long-range-wireless-mesh-modem-with-usb-interface/
 
 - To use this UI, you will need to install following drivers Install run time engine from here 64bit http://www.ni.com/download/labview-run-time-engine-2017/6821/en/
 
@@ -114,11 +114,11 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 ##  Uploading the code  to ESP32 using Arduino IDE:
 - **Download and include the PubSubClient Library and Wire.h Library.**
 - **You must assign your unique Ubidots TOKEN, MQTTCLIENTNAME, SSID (WiFi Name) and Password of the available network.**
-- **Compile and upload the  [ESP32_SHT30.](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/ESP32_SHT30.ino) code.**
+- **Compile and upload the  [Ncd__vibration_and_temperature.ino](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Ncd__vibration_and_temperature.ino) code.**
 - **To verify the connectivity of the device and the data sent, open the serial monitor.If no response is seen, try unplugging your ESP32 and then plugging it again. Make sure the baud rate of the Serial monitor is set to the same one specified in your code 115200.**
 
 ## Serial monitor output.
-![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Seriasht30%20output.JPG)
+![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/vibration%20serial.JPG)
 
 ## Making the Ubidot work:
 - **Create the account on [Ubidot](https://ubidots.com/).**
@@ -144,6 +144,6 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
      variable and publish to variable sensor inside  device esp32. 
 
 # OUTPUT
-- **Now as the temperature increases and decreases new data available inside the sensor variable.**
-![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/SHT30%20out.JPG)
+- **Now as the temperature/vibration  increases and decreases new data available inside the various variable.**
+![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/ubidot%20vibration.JPG)
 
