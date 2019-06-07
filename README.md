@@ -137,11 +137,11 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/variable.JPG)
                   
          
-![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Sensor233.JPG)
+![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/variableout.JPG)
 
-     Now you are able to view the Temperature in degree celsius which was previously viewed in serial monitor.This
-     happened because the value of temperature we calculated in degree celsius  is passed as a string and store in
-     variable and publish to variable sensor inside  device esp32. 
+     Now you are able to view the Temperature and other sensors data which was previously viewed in serial monitor.This
+     happened because the value of  different sensor readings  is passed as a string and store in
+     variable and publish to variable inside  device esp32. 
 
 # OUTPUT
 - **Now as the temperature/vibration  increases and decreases new data available inside the various variable.**
