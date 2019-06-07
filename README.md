@@ -142,7 +142,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
      Now you are able to view the Temperature and other sensors data which was previously viewed in serial monitor.This
      happened because the value of  different sensor readings  is passed as a string and store in
      variable and publish to variable inside  device esp32. 
-- **Create dashboard in ubidots
+- **Create dashboard in ubidots**
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/dashboard1.JPG)
        
           Go to data select dashboard and inside dashboard create different widgets and add new widget 
