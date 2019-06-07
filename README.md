@@ -91,13 +91,25 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 - Wire.read()
   Receive 1 byte.
 
-# Steps to send data to Ubidot using ESP-32 and IoT Long Range Wireless Vibration And Temperature Sensor-
+# Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface-
 
-## Connection of SHT30 with shield
-![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/I2Cconnection%20SI021.JPG)
+- Industrial Wireless Vibration temperature Sensor With 2 Mile Range Long range wireless IoT Vibration Temperature sensor can be found over here [Industrial Wireless Vibration temperature Sensor]https://store.ncd.io/iot-long-range-wireless-vibration-and-temperature-sensor/
 
-## Connection of ESP-32 with shield
-![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/Esp32%20Connection.png)
+- This Labview software will work with ncd.io wireless Vibration Temperature sesnor only
+
+- To use this Labview Utility You will need a Wireless to USB router, whihc can be found over here [Wireless to USB router]https://store.ncd.io/product/900hp-   s3b-long-range-wireless-mesh-modem-with-usb-interface/
+
+- To use this UI, you will need to install following drivers Install run time engine from here 64bit http://www.ni.com/download/labview-run-time-engine-2017/6821/en/
+
+- 32 bit http://www.ni.com/download/labview-run-time-engine-2017/6822/en/
+
+- Install NI Visa Driver -- http://www.ni.com/download/ni-visa-run-time-engine/6647/en/
+
+- Install Labview Run time serial driver http://www.ni.com/download/ni-serial-17.0/6613/en/ http://www.ni.com/download/labview-run-time-engine-2017-sp1/7191/en/
+
+- Getting strated guide for this product can be found over here https://ncd.io/long-range-iot-wireless-vibration-sensor-getting-started/
+
+- Complete product manual for this product can be found over here https://ncd.io/long-range-iot-wireless-vibration-sensor-product-manual/
 
 ##  Uploading the code  to ESP32 using Arduino IDE:
 - **Download and include the PubSubClient Library and Wire.h Library.**
