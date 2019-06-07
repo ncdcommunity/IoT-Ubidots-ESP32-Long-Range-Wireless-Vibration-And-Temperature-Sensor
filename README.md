@@ -10,6 +10,13 @@ Powered by just 2 AA batteries and an operational lifetime of 500,000 wireless t
 
 The long range, price, accuracy, battery life and security features of Wireless Vibration Sensor makes it an affordable choice which exceeds the requirements for most of the industrial as well as consumer market applications.
 
+![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Zigmo_1.png)
+# ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface
+- **ZigBee Wireless Communication**
+Mesh Networking is simply the hottest wireless technology of our time. Period. It’s fast, it’s very easy to use, highly reliable, and self healing. Three components are required for the ZigBee Mesh Network, the Coordinator (C), the Router (R) and the Endpoint (E). Your computer can speak to a ZigBee Mesh Network using a Coordinator. Think of the Coordinator as the interface to a ZigBee Mesh Network. NCD Coordinators are equipped with a USB Interface. This ZigBee Coordinator mounts as a Serial Port on your computer, and you will develop software that sends Serial commands at 115.2K Baud. The primary job of a router is to bridge the wireless gap between your computer (the Coordinator) and the device (Endpoint). If the Coordinator cannot speak to the Endpoint device because it is out of range, a Router can be used to bridge the two devices together. Endpoints are simply devices. With regard to NCD products, Endpoints can be relay controllers, data collection devices, PWM devices, and much more.
+
+- **USB ZigBee Coordinator**
+Your computer can speaks to a ZB ZigBee Network using a Coordinator.  Think of the Coordinator as the interface to a ZB ZigBee Network.  NCD ZigBee Coordinators are equipped with a USB Interface.  USB Coordinators mount as a Serial Port on your computer, and you will develop software that sends Serial commands at 115.2K Baud.  Only ONE Coordinator should be installed within a wireless ZB ZigBee Network.  Two types of Coordinators are available.  AT and API.  Normally, AT coordinators are used.  AT coordinators use Terminal-like AT commands to speak to a ZB ZigBee Network.  They are easier to use than an API coordinator.  An API coordinator uses a string of carefully chosen bytes and checksums to communicate data to a ZigBee networking.  API coordinators are harder to use, but can communicate and switch between devices much faster.  This page will introduce you to AT coordinators.  You can choose between AT and API firmware at checkout.
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/ESP32_1.png)
 # ESP-32
 The ESP32 makes it easy to use the Arduino IDE and the Arduino Wire Language for IoT applications. This ESp32 IoT Module combines Wi-Fi, Bluetooth, and Bluetooth BLE for a variety of diverse applications. This module comes fully-equipped with 2 CPU cores that can be controlled and powered individually, and with an adjustable clock frequency of 80 MHz to 240 MHz. This ESP32 IoT WiFi BLE Module with Integrated USB is designed to fit in all ncd.io IoT products.
@@ -20,9 +27,10 @@ We manufactured our own version of the ESP32 to fit into NCD IoT devices, offeri
 
 Hardware needed Interfacing-SI7021-with-esp32:
 - [ESP-32](https://store.ncd.io/product/esp32-iot-wifi-ble-module-with-integrated-usb/)
-- [SHT30](https://shop.controleverything.com/products/humidity-and-temperature-sensor-3-rh-0-3-c)
+- [IoT Long Range Wireless Vibration And Temperature Sensor](https://store.ncd.io/product/iot-long-range-wireless-vibration-and-temperature-sensor/)
 - [I2C Cable](https://store.ncd.io/product/i2c-cable/)
 - [PARTICLE ELECTRON OR PHOTON COMPATIBLE I2C SHIELD](https://shop.controleverything.com/products/i2c-breakout-for-particle-electron-or-particle-photon)
+- [ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/zigbee-coordinator-long-range-wireless-mesh-modem-with-usb-interface/)
 
 Software Used:
 - Arduino IDE
@@ -83,7 +91,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip �
 - Wire.read()
   Receive 1 byte.
 
-# Steps to send data to Ubidot using ESP-32 and SHT30-
+# Steps to send data to Ubidot using ESP-32 and IoT Long Range Wireless Vibration And Temperature Sensor-
 
 ## Connection of SHT30 with shield
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/I2Cconnection%20SI021.JPG)
