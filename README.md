@@ -1,5 +1,5 @@
 # Interfacing  esp32 and NCD wireless vibration and temperature sensor
-Displaying Temperature Data on Ubidots  using esp8266 and NCD wireless vibration and temperature sensor.
+Displaying Temperature Data on Ubidots  using esp32 and NCD wireless vibration and temperature sensor.
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Vibration-Temp-NO-Zigmo-600x400.png)
 # IoT Wireless Vibration Sensor 
 
