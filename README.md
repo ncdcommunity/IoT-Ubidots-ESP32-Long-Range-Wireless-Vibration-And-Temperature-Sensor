@@ -25,7 +25,7 @@ Monitor sensors and control relays, FETs, PWM controllers, solenoids, valves, mo
 
 We manufactured our own version of the ESP32 to fit into NCD IoT devices, offering more expansion options than any other device in the world! Integrated USB port allows easy programming of the ESP32. The ESP32 IoT WiFi BLE Module is an incredible platform for IoT application development. This ESP32 IoT WiFi BLE Module can be programmed using Arduino IDE.
 
-Hardware needed Interfacing-SI7021-with-esp32:
+Hardware :
 - [ESP-32](https://store.ncd.io/product/esp32-iot-wifi-ble-module-with-integrated-usb/)
 - [IoT Long Range Wireless Vibration And Temperature Sensor](https://store.ncd.io/product/iot-long-range-wireless-vibration-and-temperature-sensor/)
 - [I2C Cable](https://store.ncd.io/product/i2c-cable/)
