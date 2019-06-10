@@ -149,5 +149,5 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
           to your dashboard screen.
 # OUTPUT
 - **Now as the temperature/vibration  increases and decreases new data available inside the various variable.**
-![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/ubidot%20vibration.JPG)
+![alt tag](https://github.com/mjScientech/ESP32-AND-Long-range-temperature-and-vibration-sensor/blob/master/outputncd%20vibration.PNG)
 
