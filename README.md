@@ -11,7 +11,7 @@ Powered by just 2 AA batteries and an operational lifetime of 500,000 wireless t
 The long range, price, accuracy, battery life and security features of Wireless Vibration Sensor makes it an affordable choice which exceeds the requirements for most of the industrial as well as consumer market applications.
 
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Zigmo_1.png)
-# ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface
+# Long Range Wireless Mesh Modem with USB Interface
 - **ZigBee Wireless Communication**
 Mesh Networking is simply the hottest wireless technology of our time. Period. It’s fast, it’s very easy to use, highly reliable, and self healing. Three components are required for the ZigBee Mesh Network, the Coordinator (C), the Router (R) and the Endpoint (E). Your computer can speak to a ZigBee Mesh Network using a Coordinator. Think of the Coordinator as the interface to a ZigBee Mesh Network. NCD Coordinators are equipped with a USB Interface. This ZigBee Coordinator mounts as a Serial Port on your computer, and you will develop software that sends Serial commands at 115.2K Baud. The primary job of a router is to bridge the wireless gap between your computer (the Coordinator) and the device (Endpoint). If the Coordinator cannot speak to the Endpoint device because it is out of range, a Router can be used to bridge the two devices together. Endpoints are simply devices. With regard to NCD products, Endpoints can be relay controllers, data collection devices, PWM devices, and much more.
 
@@ -30,7 +30,7 @@ Hardware :
 - [IoT Long Range Wireless Vibration And Temperature Sensor](https://store.ncd.io/product/iot-long-range-wireless-vibration-and-temperature-sensor/)
 - [I2C Cable](https://store.ncd.io/product/i2c-cable/)
 - [PARTICLE ELECTRON OR PHOTON COMPATIBLE I2C SHIELD](https://shop.controleverything.com/products/i2c-breakout-for-particle-electron-or-particle-photon)
-- [ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/zigbee-coordinator-long-range-wireless-mesh-modem-with-usb-interface/)
+- [Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/zigbee-coordinator-long-range-wireless-mesh-modem-with-usb-interface/)
 
 Software Used:
 - Arduino IDE
@@ -91,7 +91,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip �
 - Wire.read()
   Receive 1 byte.
 
-# Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and ZigBee Coordinator Long Range Wireless Mesh Modem with USB Interface-
+# Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and  Long Range Wireless Mesh Modem with USB Interface-
 
 - Industrial Wireless Vibration temperature Sensor With 2 Mile Range Long range wireless IoT Vibration Temperature sensor can be found over here https://store.ncd.io/iot-long-range-wireless-vibration-and-temperature-sensor/
 
