@@ -12,10 +12,6 @@ The long range, price, accuracy, battery life and security features of Wireless 
 
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Zigmo_1.png)
 # Long Range Wireless Mesh Modem with USB Interface
-- **ZigBee Wireless Communication**
-Mesh Networking is simply the hottest wireless technology of our time. Period. It’s fast, it’s very easy to use, highly reliable, and self healing. Three components are required for the ZigBee Mesh Network, the Coordinator (C), the Router (R) and the Endpoint (E). Your computer can speak to a ZigBee Mesh Network using a Coordinator. Think of the Coordinator as the interface to a ZigBee Mesh Network. NCD Coordinators are equipped with a USB Interface. This ZigBee Coordinator mounts as a Serial Port on your computer, and you will develop software that sends Serial commands at 115.2K Baud. The primary job of a router is to bridge the wireless gap between your computer (the Coordinator) and the device (Endpoint). If the Coordinator cannot speak to the Endpoint device because it is out of range, a Router can be used to bridge the two devices together. Endpoints are simply devices. With regard to NCD products, Endpoints can be relay controllers, data collection devices, PWM devices, and much more.
-
-- **USB ZigBee Coordinator**
 Your computer can speaks to a ZB ZigBee Network using a Coordinator.  Think of the Coordinator as the interface to a ZB ZigBee Network.  NCD ZigBee Coordinators are equipped with a USB Interface.  USB Coordinators mount as a Serial Port on your computer, and you will develop software that sends Serial commands at 115.2K Baud.  Only ONE Coordinator should be installed within a wireless ZB ZigBee Network.  Two types of Coordinators are available.  AT and API.  Normally, AT coordinators are used.  AT coordinators use Terminal-like AT commands to speak to a ZB ZigBee Network.  They are easier to use than an API coordinator.  An API coordinator uses a string of carefully chosen bytes and checksums to communicate data to a ZigBee networking.  API coordinators are harder to use, but can communicate and switch between devices much faster.  This page will introduce you to AT coordinators.  You can choose between AT and API firmware at checkout.
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/ESP32_1.png)
 # ESP-32
@@ -93,23 +89,19 @@ The library cannot currently be used with hardware based on the ENC28J60 chip �
 
 # Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and  Long Range Wireless Mesh Modem with USB Interface-
 
-- Industrial Wireless Vibration temperature Sensor With 2 Mile Range Long range wireless IoT Vibration Temperature sensor can be found over here https://store.ncd.io/iot-long-range-wireless-vibration-and-temperature-sensor/
+- First, we need a Labview utility application which is [ncd.io Wireless Vibration and Temperature Sensor.exe](https://github.com/ncdcommunity/Industrial-IoT-Vibration-Temperature-Sensor) file on which data can be viewed.
 
 - This Labview software will work with ncd.io wireless Vibration Temperature sesnor only
 
-- To use this Labview Utility You will need a Wireless to USB router, whihc can be found over here https://store.ncd.io/product/900hp-   s3b-long-range-wireless-mesh-modem-with-usb-interface/
+- To use this UI, you will need to install following drivers Install run time engine from here [64bit](http://www.ni.com/download/labview-run-time-engine-2017/6821/en/)
 
-- To use this UI, you will need to install following drivers Install run time engine from here 64bit http://www.ni.com/download/labview-run-time-engine-2017/6821/en/
+- [32 bit](http://www.ni.com/download/labview-run-time-engine-2017/6822/en/)
 
-- 32 bit http://www.ni.com/download/labview-run-time-engine-2017/6822/en/
+- Install [NI Visa Driver](http://www.ni.com/download/ni-visa-run-time-engine/6647/en/)
 
-- Install NI Visa Driver -- http://www.ni.com/download/ni-visa-run-time-engine/6647/en/
+- Install [LabVIEW Run-Time Engine]( http://www.ni.com/download/labview-run-time-engine-2017-sp1/7191/en/) and [NI-Serial Runtime]  (http://www.ni.com/download/ni-serial-17.0/6613/en/)
 
-- Install Labview Run time serial driver http://www.ni.com/download/ni-serial-17.0/6613/en/ http://www.ni.com/download/labview-run-time-engine-2017-sp1/7191/en/
-
-- Getting strated guide for this product can be found over here https://ncd.io/long-range-iot-wireless-vibration-sensor-getting-started/
-
-- Complete product manual for this product can be found over here https://ncd.io/long-range-iot-wireless-vibration-sensor-product-manual/
+- [Getting started guide for this product.](https://ncd.io/long-range-iot-wireless-vibration-sensor-getting-started/)
 
 ##  Uploading the code  to ESP32 using Arduino IDE:
 - **Download and include the PubSubClient Library and Wire.h Library.**
