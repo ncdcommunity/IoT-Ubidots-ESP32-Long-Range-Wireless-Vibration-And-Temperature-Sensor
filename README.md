@@ -1,5 +1,6 @@
-# Interfacing  esp32 and NCD wireless vibration and temperature sensor
-Displaying Temperature Data on Ubidots  using esp32 and NCD wireless vibration and temperature sensor.
+Vibration is simply a back and forth movement—or oscillation—of machines and components in motorized equipment. Vibration in industrial equipment can be a symptom, or cause, of a problem, or it can be associated with normal operation. For example, oscillating sanders and vibratory tumblers rely on vibration to function. Internal combustion engines and gear drives, on the other hand, experience a certain amount of unavoidable vibration.
+
+Vibration can indicate a problem and if left unchecked can cause damage or expedited deterioration. Vibration can be caused by one or more factors at any given time, the most common being an imbalance, misalignment, wear, and looseness.This damage can be minimize by analyzing Temperature and Vibration Data on Ubidots  using esp32 and NCD wireless vibration and temperature sensor.
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Vibration-Temp-NO-Zigmo-600x400.png)
 # IoT Long Range Wireless Vibration And Temperature Sensor
 IoT Long Range Wireless Vibration And Temperature Sensor is battery powered and wireless, which means no need to pull power or data cables to get it up and running. It continuously monitors your machine’s vibration data and captures it at high resolution along with other parameters  temperature and run hours. This data is then uploaded to Ubidots secure cloud in real-time for continuous diagnosis of your machine’s health. It is best suited for rotating and reciprocating industrial machines such as motors, fans, pumps and compressors.
