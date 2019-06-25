@@ -106,14 +106,14 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 ## Serial monitor output.
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/vibration%20serial.JPG)
 
-## Making the Ubidot work:
-- **Create the account on [Ubidot](https://ubidots.com/).**
+## Making the Ubidots work:
+- **Create the account on [Ubidots](https://ubidots.com/).**
 - **Go to my profile and note down the token key which is a unique key for every account and paste it to your ESP32 code before uploading.**
-- **Add a new device to your ubidot dashboard name esp32.**
+- **Add a new device to your Ubidots dashboard name esp32.**
   
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/device234.JPG)
 
-                       Click on devices and select devices in ubidot.
+                       Click on devices and select devices in Ubidots.
 
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/Device.JPG)
 
@@ -128,7 +128,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
      Now you are able to view the Temperature and other sensors data which was previously viewed in serial monitor.This
      happened because the value of  different sensor readings  is passed as a string and store in
      variable and publish to variable inside  device esp32. 
-- **Create dashboard in ubidots**
+- **Create dashboard in Ubidots**
 ![alt tag](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/dashboard1.JPG)
        
           Go to data select dashboard and inside dashboard create different widgets and add new widget 
